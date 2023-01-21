@@ -8,3 +8,7 @@ código,créditos,créditos_requeridos,prerrequisitos,obligatorio,nombre,semestr
 
 Los prerrequisitos tienen el siguiente formato:
 prerrequisito1;prerrequisito2;....;prerrequisitoN
+
+Ejemplo:
+
+962,5,0,960;770;795,true,Matematica Computo 2,4
