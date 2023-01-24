@@ -11,4 +11,4 @@ Los prerrequisitos tienen el siguiente formato:
 
 Ejemplo:
 
-962,5,0,960;770;795,true,Matematica Computo 2,4
+* 962,5,0,960;770;795,true,Matematica Computo 2,4
