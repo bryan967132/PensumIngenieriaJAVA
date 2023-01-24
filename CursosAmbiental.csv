@@ -6,7 +6,7 @@ codigo,creditos,creditos_requeridos,prerrequisitos,obligatorio,nombre,semestre
 6,2,0,0,false,Idioma Tecnico 1,1
 354,5,0,0,true,Quimica 3,1
 27,3,0,0,true,Biologia General,1
-75,1,0,69,true,AUTOCAD 2D,2
+75,1,0,69,true,AutoCAD 2D,2
 19,4,0,17,true,Social Humanistica 2,2
 103,7,0,101,true,Matematica Basica 2,2
 147,5,0,101,true,Fisica Basica,2
