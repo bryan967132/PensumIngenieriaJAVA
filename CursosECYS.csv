@@ -1,0 +1,89 @@
+17,4,0,,true,Social Humaistica 1,1
+101,7,0,,true,Matematica Basica 1,1
+69,3,0,,true,Tecnica Complementaria 1,1
+39,1,0,,false,Deportes 1,1
+348,3,0,,true,Quimica General 1,1
+6,2,0,,false,Idioma Tecnico 1,1
+19,4,0,17,true,Social Humanistica 2,2
+103,7,0,101,true,Matematica Basica 2,2
+5,3,0,,true,Tecnicas de Estudio y de Investigacion,2
+147,50,0,101,true,Fisica Basica,2
+40,1,0,39,false,Deportes 2,2
+8,2,0,6,false,Idioma Tecnico 2,2
+795,2,33,103,true,Logica de Sistemas,3
+960,5,33,103,true,Matematica Computo 1,3
+770,4,33,103,true,Introduccion a la Programacion y Computacion 1,3
+107,10,0,103,true,Matematica Intermedia 1,3
+150,6,0,103;147,true,Fisica 1,3
+9,2,0,8,false,Idioma Tecnico 3,3
+732,5,0,107;5,true,Estadistica 1,4
+796,3,0,770;795;960,true,Lenguajes Formales y de Programacion,4
+962,5,0,960;770;795,true,Matematica Computo 2,4
+771,5,0,107;770;795;960,true,Introduccion a la Programacion y Computacion 2,4
+10,2,0,19,false,Logica,4
+112,5,0,107,true,Matematica Intermedia 2,4
+114,5,0,107,true,Matematica Intermedia 3,4
+152,6,0,107;150,true,Fisica 2,4
+11,2,0,9,false,Idioma Tecnico 4,4
+2025,0,0,103;770,true,Practica Inicial,4
+736,4,0,732,true,Analisis Probabilistico,5
+777,4,0,771;795;962,true,Organizacion de Lenguajes y Compiladores 1,5
+964,3,0,152;771;962,true,Organizacion Computacional,5
+772,5,0,771;796;962,true,Estructura de Datos,5
+18,3,90,19,false,Filosofia de la Ciencia,5
+116,5,0,112;114,true,Matematica Aplicada 3,5
+118,6,0,112;114,true,Matematica Aplicada 1,5
+368,3,0,732;152;348,false,Principios de Metrologia,5
+650,3,90,,false,Contabilidad 1,5
+28,3,90,,false,Ecologia,5
+722,5,0,732;772;116;118,true,Teoria de Sistemas 1,6
+601,5,0,771;732,true,Investigacion de Operaciones 1,6
+14,4,0,732,true,Economia,6
+781,5,0,777;772,true,Organizacion de Lenguajes y Compiladores 2,6
+778,5,0,796;964,true,Arquitectura de Computadoras y Ensambladores 1,6
+773,4,0,772;796,true,Manejo e Implementacion de Archivos,6
+122,4,0,118,false,Matematica Aplicada 4,6
+120,6,0,118,false,Matematica Aplicada 2,6
+200,5,0,114;152,false,Ingenieria Electrica 1,6
+652,3,0,650,false,Contabilidad 2,6
+335,3,0,28,false,Gestion de Desastres,6
+724,5,0,722;601;736,true,Teoria de Sistemas 2,7
+603,5,0,601,true,Investigacion de Operaciones 2,7
+734,5,0,732,false,Estadistica 2,7
+281,5,0,781;778,true,Sistemas Operativos 1,7
+779,4,0,778,true,Arquitectura de Computadoras y Ensambladores 2,7
+970,4,0,773;778,true,Redes de Computadoras 1,7
+774,5,0,773,true,Sistemas de Bases de Datos 1,7
+656,5,150,,false,Administracion de Empresas 1,7
+654,3,0,652,false,Contabilidad 3,7
+2036,0,0,778;777;773;2025,true,Practica Intermedia,7
+285,4,0,281,true,Sistemas Operativos 2,8
+975,4,0,970,true,Redes de Computadoras 2,8
+775,4,0,281;774,true,Sistemas de Bases de Datos 2,8
+283,5,0,774,true,Analisis y Diseño de Sistemas 1,8
+797,3,170,724,true,Seminario de Sistemas 1,8
+700,5,0,732,false,Ingenieria Economica 1,8
+729,5,0,724;603,true,Modelacion y Simulacion 1,9
+786,4,0,283;722,true,Sistemas Organizacionales y Gerenciales 1,9
+972,4,0,781;775;724,true,Inteligencia Artificial 1,9
+966,4,0,975,false,Seguridad y Auditoria de Redes,9
+785,5,0,283,true,Analisis y Diseno de Sistemas 2,9
+788,5,0,283,false,Sistemas Aplicados 1,9
+738,5,0,775,false,Bases de Datos Avanzadas,9
+798,3,190,797,true,Seminario de Sistemas 2,9
+288,4,190,,false,Introduccion a la Evaluacion de Impacto Ambiental,9
+702,4,0,700,false,Ingenieria Economica 2,9
+1,4,200,,false,Etica Profesional,9
+2009,0,200,2036,true,Practica Final,9
+787,4,0,786,true,Sistemas Organizacionales y Gerenciales 2,10
+790,4,0,786,false,Emprendedores de Negocios Informaticos,10
+720,5,0,729,true,Modelacion y Simulacion 2,10
+968,4,0,972,false,Inteligencia Artificial 2,10
+974,4,0,975,false,Redes de Nueva Generacion,10
+780,6,0,785,true,Software Avanzado,10
+789,5,0,785;788,false,Sistemas Aplicados 2,10
+735,5,0,785,false,Auditoria de Proyectos de Software,10
+7990,4,225,,false,Seminario de Investigacion EPS,10
+710,6,190,,false,Planeamiento,10
+706,4,190,700,false,Preparacion y Evaluacion de Proyectos 1,10
+799,3,220,798,true,Seminario de Investigacion,10
