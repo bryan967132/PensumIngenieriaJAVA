@@ -1,22 +1,25 @@
 package SparseMatrix;
 import BackEnd.Class; 
 public class SparseMatrix {
-	public HeaderList accessR;
-	public HeaderList accessC;
+	private HeaderList accessR;
+	private HeaderList accessC;
+	private int row = 1;
 	public SparseMatrix() {
 		accessR = new HeaderList();
 		accessC = new HeaderList();
 	}
 	public void insert(Class clasS) {
-		if(!accessR.isHereIndex(clasS.getSemester())) {
-			accessR.add(clasS.getSemester());
+		if(!accessR.isHereIndex(row)) {
+			accessR.add(row);
 		}
-		if(!accessC.isHereIndex(clasS.getCode())) {
-			accessC.add(clasS.getCode());
+		if(!accessC.isHereIndex(clasS.getSemester())) {
+			accessC.add(clasS.getSemester());
+			row = 1;
 		}
-		NodeI node = new NodeI(clasS.getSemester(),clasS.getCode(),clasS);
-		addRow(clasS.getSemester(),node);
-		addColumn(clasS.getCode(),node);
+		NodeI node = new NodeI(row,clasS.getSemester(),clasS);
+		addRow(row,node);
+		addColumn(clasS.getSemester(),node);
+		row += 1;
 	}
 	public void addRow(int row,NodeI node) {
 		NodeH currentR = accessR.first;
@@ -110,16 +113,15 @@ public class SparseMatrix {
 		return null;
 	}
 	public void print() {
-		NodeH currentR = accessR.first;
-		NodeI currentC;
-		while(currentR != null) {
-			currentC = currentR.access;
-			while(currentC != null) {
-				System.out.println(currentC.clasS);
-				currentC = currentC.right;
+		NodeH currentC = accessC.first;
+		NodeI currentR;
+		while(currentC != null) {
+			currentR = currentC.access;
+			while(currentR != null) {
+				System.out.println(currentR.clasS);
+				currentR = currentR.down;
 			}
-			System.out.println();
-			currentR = currentR.next;
+			currentC = currentC.next;
 		}
 		System.out.println();
 	}
@@ -128,12 +130,12 @@ public class SparseMatrix {
 		dot += "\n\tRoot[label = \"Capa 0\", group=\"0\"];";
 		NodeH currentR = accessR.first;
 		while(currentR != null) {
-			dot += "\n\tF" + currentR.index + "[group=\"0\" fillcolor=\"plum\"];";
+			dot += "\n\tClass_" + currentR.index + "[group=\"0\" fillcolor=\"plum\"];";
 			currentR = currentR.next;
 		}
 		NodeH currentC = accessC.first;
 		while(currentC != null) {
-			dot += "\n\tC" + currentC.index + "[group=\"" + currentC.index + "\" fillcolor=\"powderblue\"];";
+			dot += "\n\tSemester_" + currentC.index + "[group=\"" + currentC.index + "\" fillcolor=\"powderblue\"];";
 			currentC = currentC.next;
 		}
 		currentC = accessC.first;
@@ -150,7 +152,7 @@ public class SparseMatrix {
 		String join = "\n\t\tRoot -> ";
 		currentC = accessC.first;
 		while(currentC != null) {
-			join += "C" + currentC.index;
+			join += "Semester_" + currentC.index;
 			currentC = currentC.next;
 			if(currentC != null) join += " -> ";
 		}
@@ -159,7 +161,7 @@ public class SparseMatrix {
 		NodeI currentCI;
 		while(currentR != null) {
 			dot += "\n\tsubgraph row" + currentR.index + "{\n\t\trank = same;";
-			join = "\n\t\tF" + currentR.index + " -> ";
+			join = "\n\t\tClass_" + currentR.index + " -> ";
 			currentCI = currentR.access;
 			while(currentCI != null) {
 				join += "N" + currentCI.row + "_" + currentCI.column;
@@ -173,7 +175,7 @@ public class SparseMatrix {
 	    join = "\n\t\tRoot -> ";
 	    currentR = accessR.first;
 	    while(currentR != null) {
-	    	join += "F" + currentR.index;
+	    	join += "Class_" + currentR.index;
 	    	currentR = currentR.next;
 			if(currentR != null) join += " -> ";
 	    }
@@ -181,7 +183,7 @@ public class SparseMatrix {
 	    currentC = accessC.first;
 	    while(currentC != null) {
 	    	dot += "\n\tsubgraph column" + currentC.index + "{";
-	    	join = "\n\t\tC" + currentC.index + " -> ";
+	    	join = "\n\t\tSemester_" + currentC.index + " -> ";
 	    	currentRI = currentC.access;
 	    	while(currentRI != null) {
 	    		join += "N" + currentRI.row + "_" + currentRI.column;

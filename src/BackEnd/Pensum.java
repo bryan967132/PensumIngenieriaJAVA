@@ -28,7 +28,8 @@ public class Pensum {
 						prerequisites[i] = Integer.parseInt(prer[i]);
 					}
 				}
-				Class clasS = new Class(
+				sp.insert(
+					new Class(
 						Integer.parseInt(classN[0]),
 						Integer.parseInt(classN[1]),
 						Integer.parseInt(classN[2]),
@@ -37,15 +38,14 @@ public class Pensum {
 						Boolean.valueOf(classN[4]),
 						false,
 						classN[5]
+					)
 				);
-				System.out.println(clasS);
-				//sp.insert(clasS);
 			}
 			sc.close();
-			//System.out.println(sp.dot());
 		}
 		catch(Exception e) {
 			e.printStackTrace();
 		}
+		sp.print();
 	}
 }
