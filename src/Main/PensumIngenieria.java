@@ -3,7 +3,6 @@ import BackEnd.Pensum;
 public class PensumIngenieria {
 	public static void main(String[] args) {
 		Pensum p = new Pensum();
-		//p.readFilePensum("CursosSistemas.csv");
-		p.readFilePensum("CursosAmbiental.csv");
+		p.readFilePensum("CursosSistemas.csv");
 	}
 }
