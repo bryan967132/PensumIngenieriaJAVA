@@ -1,25 +1,24 @@
 package SparseMatrix;
+import java.io.File;
+import java.io.PrintWriter;
 import BackEnd.Class; 
 public class SparseMatrix {
 	private HeaderList accessR;
 	private HeaderList accessC;
-	private int row = 1;
 	public SparseMatrix() {
 		accessR = new HeaderList();
 		accessC = new HeaderList();
 	}
-	public void insert(Class clasS) {
+	public void insert(int row,int column,Class clasS) {
 		if(!accessR.isHereIndex(row)) {
 			accessR.add(row);
 		}
-		if(!accessC.isHereIndex(clasS.getSemester())) {
-			accessC.add(clasS.getSemester());
-			row = 1;
+		if(!accessC.isHereIndex(column)) {
+			accessC.add(column);
 		}
-		NodeI node = new NodeI(row,clasS.getSemester(),clasS);
+		NodeI node = new NodeI(row,column,clasS);
 		addRow(row,node);
-		addColumn(clasS.getSemester(),node);
-		row += 1;
+		addColumn(column,node);
 	}
 	public void addRow(int row,NodeI node) {
 		NodeH currentR = accessR.first;
@@ -195,5 +194,30 @@ public class SparseMatrix {
 	    }
 		dot += "\n}";
 		return dot;
+	}
+	public void graphic(String root) {
+		PrintWriter writer = null;
+		try {
+			writer = new PrintWriter(new File("doc/" + root + ".dot"),"utf-8");
+			writer.print(dot());
+		}
+		catch(Exception e) {
+			System.err.println("Error al escribir el archivo " + root + ".dot");
+		}
+		finally {
+			try {
+				if(writer != null) writer.close();
+			}
+			catch(Exception e) {
+				System.err.println("Error al cerrar el archivo " + root + ".dot");
+			}
+		}
+		try {
+			Runtime rt = Runtime.getRuntime();
+			rt.exec("dot -Tpng -o img/" + root + ".png doc/" + root + ".dot");
+		}
+		catch(Exception e) {
+			System.err.println("Error al generar la imagen para el archivo " + root + ".dot");
+		}
 	}
 }

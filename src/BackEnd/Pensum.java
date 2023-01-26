@@ -14,9 +14,11 @@ public class Pensum {
 				)
 			);
 			Scanner sc = new Scanner(file);
+			int semester = 0;
+			int row = 0;
+			int[] prerequisites;
 			String[] classN;
 			String[] prer;
-			int[] prerequisites;
 			sc.nextLine();
 			while(sc.hasNextLine()) {
 				classN = sc.nextLine().split(",");
@@ -28,24 +30,31 @@ public class Pensum {
 						prerequisites[i] = Integer.parseInt(prer[i]);
 					}
 				}
+				if(Integer.parseInt(classN[6]) > semester) {
+					row = 1;
+					semester = Integer.parseInt(classN[6]);
+				}
 				sp.insert(
+					row,
+					semester,
 					new Class(
 						Integer.parseInt(classN[0]),
 						Integer.parseInt(classN[1]),
 						Integer.parseInt(classN[2]),
-						Integer.parseInt(classN[6]),
+						semester,
 						prerequisites,
 						Boolean.valueOf(classN[4]),
 						false,
 						classN[5]
 					)
 				);
+				row += 1;
 			}
+			sp.graphic(root.replace(".csv",""));
 			sc.close();
 		}
 		catch(Exception e) {
 			e.printStackTrace();
 		}
-		sp.print();
 	}
 }
