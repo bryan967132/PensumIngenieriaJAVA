@@ -1,0 +1,224 @@
+digraph T{
+	node[shape=box fontname="Arial" fillcolor="white" style=filled];
+	Root[label = "Capa 0", group="0"];
+	Class_1[group="0" fillcolor="plum"];
+	Class_2[group="0" fillcolor="plum"];
+	Class_3[group="0" fillcolor="plum"];
+	Class_4[group="0" fillcolor="plum"];
+	Class_5[group="0" fillcolor="plum"];
+	Class_6[group="0" fillcolor="plum"];
+	Class_7[group="0" fillcolor="plum"];
+	Class_8[group="0" fillcolor="plum"];
+	Class_9[group="0" fillcolor="plum"];
+	Class_10[group="0" fillcolor="plum"];
+	Class_11[group="0" fillcolor="plum"];
+	Class_12[group="0" fillcolor="plum"];
+	Semester_1[group="1" fillcolor="powderblue"];
+	Semester_2[group="2" fillcolor="powderblue"];
+	Semester_3[group="3" fillcolor="powderblue"];
+	Semester_4[group="4" fillcolor="powderblue"];
+	Semester_5[group="5" fillcolor="powderblue"];
+	Semester_6[group="6" fillcolor="powderblue"];
+	Semester_7[group="7" fillcolor="powderblue"];
+	Semester_8[group="8" fillcolor="powderblue"];
+	Semester_9[group="9" fillcolor="powderblue"];
+	Semester_10[group="10" fillcolor="powderblue"];
+	N1_1[group="1" label="Social Humaistica 1"];
+	N2_1[group="1" label="Matematica Basica 1"];
+	N3_1[group="1" label="Tecnica Complementaria 1"];
+	N4_1[group="1" label="Deportes 1"];
+	N5_1[group="1" label="Quimica General 1"];
+	N6_1[group="1" label="Idioma Tecnico 1"];
+	N1_2[group="2" label="Social Humanistica 2"];
+	N2_2[group="2" label="Matematica Basica 2"];
+	N3_2[group="2" label="Tecnicas de Estudio y de Investigacion"];
+	N4_2[group="2" label="Fisica Basica"];
+	N5_2[group="2" label="Deportes 2"];
+	N6_2[group="2" label="Idioma Tecnico 2"];
+	N1_3[group="3" label="Logica de Sistemas"];
+	N2_3[group="3" label="Matematica Computo 1"];
+	N3_3[group="3" label="Introduccion a la Programacion y Computacion 1"];
+	N4_3[group="3" label="Matematica Intermedia 1"];
+	N5_3[group="3" label="Fisica 1"];
+	N6_3[group="3" label="Idioma Tecnico 3"];
+	N1_4[group="4" label="Estadistica 1"];
+	N2_4[group="4" label="Lenguajes Formales y de Programacion"];
+	N3_4[group="4" label="Matematica Computo 2"];
+	N4_4[group="4" label="Introduccion a la Programacion y Computacion 2"];
+	N5_4[group="4" label="Logica"];
+	N6_4[group="4" label="Matematica Intermedia 2"];
+	N7_4[group="4" label="Matematica Intermedia 3"];
+	N8_4[group="4" label="Fisica 2"];
+	N9_4[group="4" label="Idioma Tecnico 4"];
+	N10_4[group="4" label="Practica Inicial"];
+	N1_5[group="5" label="Analisis Probabilistico"];
+	N2_5[group="5" label="Organizacion de Lenguajes y Compiladores 1"];
+	N3_5[group="5" label="Organizacion Computacional"];
+	N4_5[group="5" label="Estructura de Datos"];
+	N5_5[group="5" label="Filosofia de la Ciencia"];
+	N6_5[group="5" label="Matematica Aplicada 3"];
+	N7_5[group="5" label="Matematica Aplicada 1"];
+	N8_5[group="5" label="Principios de Metrologia"];
+	N9_5[group="5" label="Contabilidad 1"];
+	N10_5[group="5" label="Ecologia"];
+	N1_6[group="6" label="Teoria de Sistemas 1"];
+	N2_6[group="6" label="Investigacion de Operaciones 1"];
+	N3_6[group="6" label="Economia"];
+	N4_6[group="6" label="Organizacion de Lenguajes y Compiladores 2"];
+	N5_6[group="6" label="Arquitectura de Computadoras y Ensambladores 1"];
+	N6_6[group="6" label="Manejo e Implementacion de Archivos"];
+	N7_6[group="6" label="Matematica Aplicada 4"];
+	N8_6[group="6" label="Matematica Aplicada 2"];
+	N9_6[group="6" label="Ingenieria Electrica 1"];
+	N10_6[group="6" label="Contabilidad 2"];
+	N11_6[group="6" label="Gestion de Desastres"];
+	N1_7[group="7" label="Teoria de Sistemas 2"];
+	N2_7[group="7" label="Investigacion de Operaciones 2"];
+	N3_7[group="7" label="Estadistica 2"];
+	N4_7[group="7" label="Sistemas Operativos 1"];
+	N5_7[group="7" label="Arquitectura de Computadoras y Ensambladores 2"];
+	N6_7[group="7" label="Redes de Computadoras 1"];
+	N7_7[group="7" label="Sistemas de Bases de Datos 1"];
+	N8_7[group="7" label="Administracion de Empresas 1"];
+	N9_7[group="7" label="Contabilidad 3"];
+	N10_7[group="7" label="Practica Intermedia"];
+	N1_8[group="8" label="Sistemas Operativos 2"];
+	N2_8[group="8" label="Redes de Computadoras 2"];
+	N3_8[group="8" label="Sistemas de Bases de Datos 2"];
+	N4_8[group="8" label="Analisis y Diseño de Sistemas 1"];
+	N5_8[group="8" label="Seminario de Sistemas 1"];
+	N6_8[group="8" label="Ingenieria Economica 1"];
+	N1_9[group="9" label="Modelacion y Simulacion 1"];
+	N2_9[group="9" label="Sistemas Organizacionales y Gerenciales 1"];
+	N3_9[group="9" label="Inteligencia Artificial 1"];
+	N4_9[group="9" label="Seguridad y Auditoria de Redes"];
+	N5_9[group="9" label="Analisis y Diseno de Sistemas 2"];
+	N6_9[group="9" label="Sistemas Aplicados 1"];
+	N7_9[group="9" label="Bases de Datos Avanzadas"];
+	N8_9[group="9" label="Seminario de Sistemas 2"];
+	N9_9[group="9" label="Introduccion a la Evaluacion de Impacto Ambiental"];
+	N10_9[group="9" label="Ingenieria Economica 2"];
+	N11_9[group="9" label="Etica Profesional"];
+	N12_9[group="9" label="Practica Final"];
+	N1_10[group="10" label="Sistemas Organizacionales y Gerenciales 2"];
+	N2_10[group="10" label="Emprendedores de Negocios Informaticos"];
+	N3_10[group="10" label="Modelacion y Simulacion 2"];
+	N4_10[group="10" label="Inteligencia Artificial 2"];
+	N5_10[group="10" label="Redes de Nueva Generacion"];
+	N6_10[group="10" label="Software Avanzado"];
+	N7_10[group="10" label="Sistemas Aplicados 2"];
+	N8_10[group="10" label="Auditoria de Proyectos de Software"];
+	N9_10[group="10" label="Seminario de Investigacion EPS"];
+	N10_10[group="10" label="Planeamiento"];
+	N11_10[group="10" label="Preparacion y Evaluacion de Proyectos 1"];
+	N12_10[group="10" label="Seminario de Investigacion"];
+	subgraph columnHeader {
+		rank = same;
+		Root -> Semester_1 -> Semester_2 -> Semester_3 -> Semester_4 -> Semester_5 -> Semester_6 -> Semester_7 -> Semester_8 -> Semester_9 -> Semester_10;
+		Root -> Semester_1 -> Semester_2 -> Semester_3 -> Semester_4 -> Semester_5 -> Semester_6 -> Semester_7 -> Semester_8 -> Semester_9 -> Semester_10[dir=back];
+	}
+	subgraph row1{
+		rank = same;
+		Class_1 -> N1_1 -> N1_2 -> N1_3 -> N1_4 -> N1_5 -> N1_6 -> N1_7 -> N1_8 -> N1_9 -> N1_10;
+		Class_1 -> N1_1 -> N1_2 -> N1_3 -> N1_4 -> N1_5 -> N1_6 -> N1_7 -> N1_8 -> N1_9 -> N1_10[dir=back];
+	}
+	subgraph row2{
+		rank = same;
+		Class_2 -> N2_1 -> N2_2 -> N2_3 -> N2_4 -> N2_5 -> N2_6 -> N2_7 -> N2_8 -> N2_9 -> N2_10;
+		Class_2 -> N2_1 -> N2_2 -> N2_3 -> N2_4 -> N2_5 -> N2_6 -> N2_7 -> N2_8 -> N2_9 -> N2_10[dir=back];
+	}
+	subgraph row3{
+		rank = same;
+		Class_3 -> N3_1 -> N3_2 -> N3_3 -> N3_4 -> N3_5 -> N3_6 -> N3_7 -> N3_8 -> N3_9 -> N3_10;
+		Class_3 -> N3_1 -> N3_2 -> N3_3 -> N3_4 -> N3_5 -> N3_6 -> N3_7 -> N3_8 -> N3_9 -> N3_10[dir=back];
+	}
+	subgraph row4{
+		rank = same;
+		Class_4 -> N4_1 -> N4_2 -> N4_3 -> N4_4 -> N4_5 -> N4_6 -> N4_7 -> N4_8 -> N4_9 -> N4_10;
+		Class_4 -> N4_1 -> N4_2 -> N4_3 -> N4_4 -> N4_5 -> N4_6 -> N4_7 -> N4_8 -> N4_9 -> N4_10[dir=back];
+	}
+	subgraph row5{
+		rank = same;
+		Class_5 -> N5_1 -> N5_2 -> N5_3 -> N5_4 -> N5_5 -> N5_6 -> N5_7 -> N5_8 -> N5_9 -> N5_10;
+		Class_5 -> N5_1 -> N5_2 -> N5_3 -> N5_4 -> N5_5 -> N5_6 -> N5_7 -> N5_8 -> N5_9 -> N5_10[dir=back];
+	}
+	subgraph row6{
+		rank = same;
+		Class_6 -> N6_1 -> N6_2 -> N6_3 -> N6_4 -> N6_5 -> N6_6 -> N6_7 -> N6_8 -> N6_9 -> N6_10;
+		Class_6 -> N6_1 -> N6_2 -> N6_3 -> N6_4 -> N6_5 -> N6_6 -> N6_7 -> N6_8 -> N6_9 -> N6_10[dir=back];
+	}
+	subgraph row7{
+		rank = same;
+		Class_7 -> N7_4 -> N7_5 -> N7_6 -> N7_7 -> N7_9 -> N7_10;
+		Class_7 -> N7_4 -> N7_5 -> N7_6 -> N7_7 -> N7_9 -> N7_10[dir=back];
+	}
+	subgraph row8{
+		rank = same;
+		Class_8 -> N8_4 -> N8_5 -> N8_6 -> N8_7 -> N8_9 -> N8_10;
+		Class_8 -> N8_4 -> N8_5 -> N8_6 -> N8_7 -> N8_9 -> N8_10[dir=back];
+	}
+	subgraph row9{
+		rank = same;
+		Class_9 -> N9_4 -> N9_5 -> N9_6 -> N9_7 -> N9_9 -> N9_10;
+		Class_9 -> N9_4 -> N9_5 -> N9_6 -> N9_7 -> N9_9 -> N9_10[dir=back];
+	}
+	subgraph row10{
+		rank = same;
+		Class_10 -> N10_4 -> N10_5 -> N10_6 -> N10_7 -> N10_9 -> N10_10;
+		Class_10 -> N10_4 -> N10_5 -> N10_6 -> N10_7 -> N10_9 -> N10_10[dir=back];
+	}
+	subgraph row11{
+		rank = same;
+		Class_11 -> N11_6 -> N11_9 -> N11_10;
+		Class_11 -> N11_6 -> N11_9 -> N11_10[dir=back];
+	}
+	subgraph row12{
+		rank = same;
+		Class_12 -> N12_9 -> N12_10;
+		Class_12 -> N12_9 -> N12_10[dir=back];
+	}
+	subgraph rowHeader {
+		Root -> Class_1 -> Class_2 -> Class_3 -> Class_4 -> Class_5 -> Class_6 -> Class_7 -> Class_8 -> Class_9 -> Class_10 -> Class_11 -> Class_12;
+		Root -> Class_1 -> Class_2 -> Class_3 -> Class_4 -> Class_5 -> Class_6 -> Class_7 -> Class_8 -> Class_9 -> Class_10 -> Class_11 -> Class_12[dir=back];
+	}
+	subgraph column1{
+		Semester_1 -> N1_1 -> N2_1 -> N3_1 -> N4_1 -> N5_1 -> N6_1;
+		Semester_1 -> N1_1 -> N2_1 -> N3_1 -> N4_1 -> N5_1 -> N6_1[dir=back];
+	}
+	subgraph column2{
+		Semester_2 -> N1_2 -> N2_2 -> N3_2 -> N4_2 -> N5_2 -> N6_2;
+		Semester_2 -> N1_2 -> N2_2 -> N3_2 -> N4_2 -> N5_2 -> N6_2[dir=back];
+	}
+	subgraph column3{
+		Semester_3 -> N1_3 -> N2_3 -> N3_3 -> N4_3 -> N5_3 -> N6_3;
+		Semester_3 -> N1_3 -> N2_3 -> N3_3 -> N4_3 -> N5_3 -> N6_3[dir=back];
+	}
+	subgraph column4{
+		Semester_4 -> N1_4 -> N2_4 -> N3_4 -> N4_4 -> N5_4 -> N6_4 -> N7_4 -> N8_4 -> N9_4 -> N10_4;
+		Semester_4 -> N1_4 -> N2_4 -> N3_4 -> N4_4 -> N5_4 -> N6_4 -> N7_4 -> N8_4 -> N9_4 -> N10_4[dir=back];
+	}
+	subgraph column5{
+		Semester_5 -> N1_5 -> N2_5 -> N3_5 -> N4_5 -> N5_5 -> N6_5 -> N7_5 -> N8_5 -> N9_5 -> N10_5;
+		Semester_5 -> N1_5 -> N2_5 -> N3_5 -> N4_5 -> N5_5 -> N6_5 -> N7_5 -> N8_5 -> N9_5 -> N10_5[dir=back];
+	}
+	subgraph column6{
+		Semester_6 -> N1_6 -> N2_6 -> N3_6 -> N4_6 -> N5_6 -> N6_6 -> N7_6 -> N8_6 -> N9_6 -> N10_6 -> N11_6;
+		Semester_6 -> N1_6 -> N2_6 -> N3_6 -> N4_6 -> N5_6 -> N6_6 -> N7_6 -> N8_6 -> N9_6 -> N10_6 -> N11_6[dir=back];
+	}
+	subgraph column7{
+		Semester_7 -> N1_7 -> N2_7 -> N3_7 -> N4_7 -> N5_7 -> N6_7 -> N7_7 -> N8_7 -> N9_7 -> N10_7;
+		Semester_7 -> N1_7 -> N2_7 -> N3_7 -> N4_7 -> N5_7 -> N6_7 -> N7_7 -> N8_7 -> N9_7 -> N10_7[dir=back];
+	}
+	subgraph column8{
+		Semester_8 -> N1_8 -> N2_8 -> N3_8 -> N4_8 -> N5_8 -> N6_8;
+		Semester_8 -> N1_8 -> N2_8 -> N3_8 -> N4_8 -> N5_8 -> N6_8[dir=back];
+	}
+	subgraph column9{
+		Semester_9 -> N1_9 -> N2_9 -> N3_9 -> N4_9 -> N5_9 -> N6_9 -> N7_9 -> N8_9 -> N9_9 -> N10_9 -> N11_9 -> N12_9;
+		Semester_9 -> N1_9 -> N2_9 -> N3_9 -> N4_9 -> N5_9 -> N6_9 -> N7_9 -> N8_9 -> N9_9 -> N10_9 -> N11_9 -> N12_9[dir=back];
+	}
+	subgraph column10{
+		Semester_10 -> N1_10 -> N2_10 -> N3_10 -> N4_10 -> N5_10 -> N6_10 -> N7_10 -> N8_10 -> N9_10 -> N10_10 -> N11_10 -> N12_10;
+		Semester_10 -> N1_10 -> N2_10 -> N3_10 -> N4_10 -> N5_10 -> N6_10 -> N7_10 -> N8_10 -> N9_10 -> N10_10 -> N11_10 -> N12_10[dir=back];
+	}
+}

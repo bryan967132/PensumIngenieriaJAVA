@@ -1,0 +1,207 @@
+digraph T{
+	node[shape=box fontname="Arial" fillcolor="white" style=filled];
+	Root[label = "Capa 0", group="0"];
+	Class_1[group="0" fillcolor="plum"];
+	Class_2[group="0" fillcolor="plum"];
+	Class_3[group="0" fillcolor="plum"];
+	Class_4[group="0" fillcolor="plum"];
+	Class_5[group="0" fillcolor="plum"];
+	Class_6[group="0" fillcolor="plum"];
+	Class_7[group="0" fillcolor="plum"];
+	Class_8[group="0" fillcolor="plum"];
+	Class_9[group="0" fillcolor="plum"];
+	Class_10[group="0" fillcolor="plum"];
+	Class_11[group="0" fillcolor="plum"];
+	Semester_1[group="1" fillcolor="powderblue"];
+	Semester_2[group="2" fillcolor="powderblue"];
+	Semester_3[group="3" fillcolor="powderblue"];
+	Semester_4[group="4" fillcolor="powderblue"];
+	Semester_5[group="5" fillcolor="powderblue"];
+	Semester_6[group="6" fillcolor="powderblue"];
+	Semester_7[group="7" fillcolor="powderblue"];
+	Semester_8[group="8" fillcolor="powderblue"];
+	Semester_9[group="9" fillcolor="powderblue"];
+	Semester_10[group="10" fillcolor="powderblue"];
+	N1_1[group="1" label="Tecnica Complementaria 1"];
+	N2_1[group="1" label="Social Humaistica 1"];
+	N3_1[group="1" label="Matematica Basica 1"];
+	N4_1[group="1" label="Deportes 1"];
+	N5_1[group="1" label="Idioma Tecnico 1"];
+	N6_1[group="1" label="Quimica 3"];
+	N7_1[group="1" label="Biologia General"];
+	N1_2[group="2" label="AutoCAD 2D"];
+	N2_2[group="2" label="Social Humanistica 2"];
+	N3_2[group="2" label="Matematica Basica 2"];
+	N4_2[group="2" label="Fisica Basica"];
+	N5_2[group="2" label="Deportes 2"];
+	N6_2[group="2" label="Tecnicas de Estudio y de Investigacion"];
+	N7_2[group="2" label="Idioma Tecnico 2"];
+	N8_2[group="2" label="Quimica 4"];
+	N9_2[group="2" label="Climatologia"];
+	N1_3[group="3" label="Logica"];
+	N2_3[group="3" label="Matematica Intermedia 1"];
+	N3_3[group="3" label="Fisica 1"];
+	N4_3[group="3" label="Geografia"];
+	N5_3[group="3" label="Idioma Tecnico 3"];
+	N6_3[group="3" label="Analisis Cualitativo"];
+	N7_3[group="3" label="Practica Inicial"];
+	N1_4[group="4" label="Geologia"];
+	N2_4[group="4" label="Topografia 1"];
+	N3_4[group="4" label="Matematica Intermedia 2"];
+	N4_4[group="4" label="Matematica Intermedia 3"];
+	N5_4[group="4" label="Fisica 2"];
+	N6_4[group="4" label="Mecanica Analitica 1"];
+	N7_4[group="4" label="Estadistica 1"];
+	N8_4[group="4" label="Idioma Tecnico 4"];
+	N9_4[group="4" label="Quimica Organica 1"];
+	N10_4[group="4" label="Analisis Cuantitativo"];
+	N1_5[group="5" label="Resistencia de Materiales 1"];
+	N2_5[group="5" label="Mecanica de Fluidos"];
+	N3_5[group="5" label="Ingenieria Economica 1"];
+	N4_5[group="5" label="Legislacion Ambiental"];
+	N5_5[group="5" label="Topografia 2"];
+	N6_5[group="5" label="Programacion de Computadoras 1"];
+	N7_5[group="5" label="Ecologia"];
+	N8_5[group="5" label="Estadistica 2"];
+	N9_5[group="5" label="Quimica Organica 2"];
+	N10_5[group="5" label="Fisicoquimica 1"];
+	N1_6[group="6" label="Mecanica de Suelos"];
+	N2_6[group="6" label="Materiales de Construccion"];
+	N3_6[group="6" label="Hidraulica"];
+	N4_6[group="6" label="Termodinamica 1"];
+	N5_6[group="6" label="Seguridad e Higiene Industrial"];
+	N6_6[group="6" label="Legislacion Ambiental 2"];
+	N7_6[group="6" label="Topografia"];
+	N8_6[group="6" label="Bioquimica"];
+	N9_6[group="6" label="Quimica Ambiental"];
+	N10_6[group="6" label="Microbiologia"];
+	N11_6[group="6" label="Economia de los RNR"];
+	N1_7[group="7" label="Sismologia"];
+	N2_7[group="7" label="Hidrologia"];
+	N3_7[group="7" label="Administracion de Empresas 1"];
+	N4_7[group="7" label="Gestion de Desastres"];
+	N5_7[group="7" label="Taller Sistemas de Informacion Geografica"];
+	N6_7[group="7" label="Practica Intermedia"];
+	N1_8[group="8" label="Aguas Subterraneas"];
+	N2_8[group="8" label="Manejo de Cuencas Hidrograficas"];
+	N3_8[group="8" label="Termodinamica 2"];
+	N4_8[group="8" label="Ingenieria Sanitaria 1"];
+	N5_8[group="8" label="Ingenieria Sanitaria 2"];
+	N6_8[group="8" label="Calidad del Agua"];
+	N7_8[group="8" label="Manejo Adecuado de Desechos Solidos"];
+	N1_9[group="9" label="Preparacion y Evaluacion de Proyectos 1"];
+	N2_9[group="9" label="Saneamiento Ambiental"];
+	N3_9[group="9" label="Seminario de Investigacion"];
+	N4_9[group="9" label="Seminario de Investigacion EPS"];
+	N5_9[group="9" label="Etica Profesional"];
+	N6_9[group="9" label="Calidad del Aire"];
+	N1_10[group="10" label="Preparacion y Evaluacion de Proyectos 2"];
+	N2_10[group="10" label="Introduccion a la Evaluacion de Impacto Ambiental"];
+	N3_10[group="10" label="Control de Contaminantes Industriales"];
+	N4_10[group="10" label="Procesos Quimicos Industriales"];
+	N5_10[group="10" label="Practica Final"];
+	subgraph columnHeader {
+		rank = same;
+		Root -> Semester_1 -> Semester_2 -> Semester_3 -> Semester_4 -> Semester_5 -> Semester_6 -> Semester_7 -> Semester_8 -> Semester_9 -> Semester_10;
+		Root -> Semester_1 -> Semester_2 -> Semester_3 -> Semester_4 -> Semester_5 -> Semester_6 -> Semester_7 -> Semester_8 -> Semester_9 -> Semester_10[dir=back];
+	}
+	subgraph row1{
+		rank = same;
+		Class_1 -> N1_1 -> N1_2 -> N1_3 -> N1_4 -> N1_5 -> N1_6 -> N1_7 -> N1_8 -> N1_9 -> N1_10;
+		Class_1 -> N1_1 -> N1_2 -> N1_3 -> N1_4 -> N1_5 -> N1_6 -> N1_7 -> N1_8 -> N1_9 -> N1_10[dir=back];
+	}
+	subgraph row2{
+		rank = same;
+		Class_2 -> N2_1 -> N2_2 -> N2_3 -> N2_4 -> N2_5 -> N2_6 -> N2_7 -> N2_8 -> N2_9 -> N2_10;
+		Class_2 -> N2_1 -> N2_2 -> N2_3 -> N2_4 -> N2_5 -> N2_6 -> N2_7 -> N2_8 -> N2_9 -> N2_10[dir=back];
+	}
+	subgraph row3{
+		rank = same;
+		Class_3 -> N3_1 -> N3_2 -> N3_3 -> N3_4 -> N3_5 -> N3_6 -> N3_7 -> N3_8 -> N3_9 -> N3_10;
+		Class_3 -> N3_1 -> N3_2 -> N3_3 -> N3_4 -> N3_5 -> N3_6 -> N3_7 -> N3_8 -> N3_9 -> N3_10[dir=back];
+	}
+	subgraph row4{
+		rank = same;
+		Class_4 -> N4_1 -> N4_2 -> N4_3 -> N4_4 -> N4_5 -> N4_6 -> N4_7 -> N4_8 -> N4_9 -> N4_10;
+		Class_4 -> N4_1 -> N4_2 -> N4_3 -> N4_4 -> N4_5 -> N4_6 -> N4_7 -> N4_8 -> N4_9 -> N4_10[dir=back];
+	}
+	subgraph row5{
+		rank = same;
+		Class_5 -> N5_1 -> N5_2 -> N5_3 -> N5_4 -> N5_5 -> N5_6 -> N5_7 -> N5_8 -> N5_9 -> N5_10;
+		Class_5 -> N5_1 -> N5_2 -> N5_3 -> N5_4 -> N5_5 -> N5_6 -> N5_7 -> N5_8 -> N5_9 -> N5_10[dir=back];
+	}
+	subgraph row6{
+		rank = same;
+		Class_6 -> N6_1 -> N6_2 -> N6_3 -> N6_4 -> N6_5 -> N6_6 -> N6_7 -> N6_8 -> N6_9;
+		Class_6 -> N6_1 -> N6_2 -> N6_3 -> N6_4 -> N6_5 -> N6_6 -> N6_7 -> N6_8 -> N6_9[dir=back];
+	}
+	subgraph row7{
+		rank = same;
+		Class_7 -> N7_1 -> N7_2 -> N7_3 -> N7_4 -> N7_5 -> N7_6 -> N7_8;
+		Class_7 -> N7_1 -> N7_2 -> N7_3 -> N7_4 -> N7_5 -> N7_6 -> N7_8[dir=back];
+	}
+	subgraph row8{
+		rank = same;
+		Class_8 -> N8_2 -> N8_4 -> N8_5 -> N8_6;
+		Class_8 -> N8_2 -> N8_4 -> N8_5 -> N8_6[dir=back];
+	}
+	subgraph row9{
+		rank = same;
+		Class_9 -> N9_2 -> N9_4 -> N9_5 -> N9_6;
+		Class_9 -> N9_2 -> N9_4 -> N9_5 -> N9_6[dir=back];
+	}
+	subgraph row10{
+		rank = same;
+		Class_10 -> N10_4 -> N10_5 -> N10_6;
+		Class_10 -> N10_4 -> N10_5 -> N10_6[dir=back];
+	}
+	subgraph row11{
+		rank = same;
+		Class_11 -> N11_6;
+		Class_11 -> N11_6[dir=back];
+	}
+	subgraph rowHeader {
+		Root -> Class_1 -> Class_2 -> Class_3 -> Class_4 -> Class_5 -> Class_6 -> Class_7 -> Class_8 -> Class_9 -> Class_10 -> Class_11;
+		Root -> Class_1 -> Class_2 -> Class_3 -> Class_4 -> Class_5 -> Class_6 -> Class_7 -> Class_8 -> Class_9 -> Class_10 -> Class_11[dir=back];
+	}
+	subgraph column1{
+		Semester_1 -> N1_1 -> N2_1 -> N3_1 -> N4_1 -> N5_1 -> N6_1 -> N7_1;
+		Semester_1 -> N1_1 -> N2_1 -> N3_1 -> N4_1 -> N5_1 -> N6_1 -> N7_1[dir=back];
+	}
+	subgraph column2{
+		Semester_2 -> N1_2 -> N2_2 -> N3_2 -> N4_2 -> N5_2 -> N6_2 -> N7_2 -> N8_2 -> N9_2;
+		Semester_2 -> N1_2 -> N2_2 -> N3_2 -> N4_2 -> N5_2 -> N6_2 -> N7_2 -> N8_2 -> N9_2[dir=back];
+	}
+	subgraph column3{
+		Semester_3 -> N1_3 -> N2_3 -> N3_3 -> N4_3 -> N5_3 -> N6_3 -> N7_3;
+		Semester_3 -> N1_3 -> N2_3 -> N3_3 -> N4_3 -> N5_3 -> N6_3 -> N7_3[dir=back];
+	}
+	subgraph column4{
+		Semester_4 -> N1_4 -> N2_4 -> N3_4 -> N4_4 -> N5_4 -> N6_4 -> N7_4 -> N8_4 -> N9_4 -> N10_4;
+		Semester_4 -> N1_4 -> N2_4 -> N3_4 -> N4_4 -> N5_4 -> N6_4 -> N7_4 -> N8_4 -> N9_4 -> N10_4[dir=back];
+	}
+	subgraph column5{
+		Semester_5 -> N1_5 -> N2_5 -> N3_5 -> N4_5 -> N5_5 -> N6_5 -> N7_5 -> N8_5 -> N9_5 -> N10_5;
+		Semester_5 -> N1_5 -> N2_5 -> N3_5 -> N4_5 -> N5_5 -> N6_5 -> N7_5 -> N8_5 -> N9_5 -> N10_5[dir=back];
+	}
+	subgraph column6{
+		Semester_6 -> N1_6 -> N2_6 -> N3_6 -> N4_6 -> N5_6 -> N6_6 -> N7_6 -> N8_6 -> N9_6 -> N10_6 -> N11_6;
+		Semester_6 -> N1_6 -> N2_6 -> N3_6 -> N4_6 -> N5_6 -> N6_6 -> N7_6 -> N8_6 -> N9_6 -> N10_6 -> N11_6[dir=back];
+	}
+	subgraph column7{
+		Semester_7 -> N1_7 -> N2_7 -> N3_7 -> N4_7 -> N5_7 -> N6_7;
+		Semester_7 -> N1_7 -> N2_7 -> N3_7 -> N4_7 -> N5_7 -> N6_7[dir=back];
+	}
+	subgraph column8{
+		Semester_8 -> N1_8 -> N2_8 -> N3_8 -> N4_8 -> N5_8 -> N6_8 -> N7_8;
+		Semester_8 -> N1_8 -> N2_8 -> N3_8 -> N4_8 -> N5_8 -> N6_8 -> N7_8[dir=back];
+	}
+	subgraph column9{
+		Semester_9 -> N1_9 -> N2_9 -> N3_9 -> N4_9 -> N5_9 -> N6_9;
+		Semester_9 -> N1_9 -> N2_9 -> N3_9 -> N4_9 -> N5_9 -> N6_9[dir=back];
+	}
+	subgraph column10{
+		Semester_10 -> N1_10 -> N2_10 -> N3_10 -> N4_10 -> N5_10;
+		Semester_10 -> N1_10 -> N2_10 -> N3_10 -> N4_10 -> N5_10[dir=back];
+	}
+}
