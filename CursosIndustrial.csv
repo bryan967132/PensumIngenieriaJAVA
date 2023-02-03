@@ -60,7 +60,7 @@ codigo,creditos,creditos_requeridos,prerrequisitos,obligatorio,nombre,semestre
 656,5,150,0,true,Administracion de Empresas 1,7
 665,3,0,632;652;700,true,Microeconomia,7
 654,3,0,652,true,Contabilidad 3,7
-634,6,0,652,true,Ingenieria de Metodos,7
+634,6,0,632,true,Ingenieria de Metodos,7
 642,3,0,202,true,Seguridad e Higiene Industrial,7
 603,5,0,601,true,Investigacion de Operaciones 2,7
 667,3,0,90;632,true,Programacion Comercial 1,7
